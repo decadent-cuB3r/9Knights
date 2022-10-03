@@ -15,6 +15,10 @@ const ExploreStack = () => {
         <Stack.Navigator>
             <Stack.Screen
                 name="Explore"
+                componenet={HomeScreen}
+            />
         </Stack.Navigator>
     )
 }
+
+export default ExploreStack;

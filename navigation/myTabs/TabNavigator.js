@@ -1,6 +1,6 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import
+import ExploreStack from "../myStacks/ExploreStack";
 
 const Tab = createBottomTabNavigator();
 
@@ -9,7 +9,10 @@ const TabNavigator = () => {
         <Tab.Naigator>
             <Tab.Screen
                 name='ExploreStack'
-                component={{}}
+                component={{ ExploreStack }}
+            />
+            <Tab.Screen
+                name=''
             />
         </Tab.Naigator>
     )

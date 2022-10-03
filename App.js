@@ -1,20 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { Box } from 'native-base';
+import TabNavigator from './navigation/myTabs/TabNavigator';
+import { NativeBaseProvider } from 'native-base';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Login Screen</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NativeBaseProvider>
+      <Box>
+        <Text>Test</Text>
+      </Box>
+    </NativeBaseProvider>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
