@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Text, Center, VStack, HStack } from 'native-base'
 
-const HomeScreen = ({ navigation }) => {
+const PostScreen = ({ navigation }) => {
     return(
         <VStack>
             <Text>HomeScreen</Text>
@@ -9,4 +9,4 @@ const HomeScreen = ({ navigation }) => {
     )
 }
 
-export default HomeScreen;
+export default PostScreen;

@@ -2,7 +2,7 @@ import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 
 //Explore Stack Components
-import HomeScreen from '../../screens/HomeScreen';
+import CommunicationScreen from '../../screens/CommunicationScreen';
 
 //Theme and color mode
 import { useTheme } from '@react-navigation/native'
@@ -10,15 +10,15 @@ import { useTheme } from '@react-navigation/native'
 //stack initial
 const Stack = createStackNavigator();
 
-const ExploreStack = () => {
+const CommunicationStack = () => {
     return (
         <Stack.Navigator>
             <Stack.Screen
-                name="HomeScreen"
-                component={HomeScreen}
+                name="CommunicationScreen"
+                component={CommunicationScreen}
             />
         </Stack.Navigator>
     )
 }
 
-export default ExploreStack;
+export default CommunicationStack;

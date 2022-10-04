@@ -1,12 +1,12 @@
 import React from "react";
 import { Box, Text, Center, VStack, HStack } from 'native-base'
 
-const HomeScreen = ({ navigation }) => {
+const ProfileScreen = ({ navigation }) => {
     return(
         <VStack>
-            <Text>HomeScreen</Text>
+            <Text>ProfileScreen</Text>
         </VStack>
     )
 }
 
-export default HomeScreen;
+export default ProfileScreen;
