@@ -1,0 +1,29 @@
+{
+    "Events": 
+    [
+        {
+            "Area": "北部",
+            "ID": "North",
+            "Events": 
+            [
+                {
+                    "ID": "",
+                    "eventName": "",
+                    "Date": [{"start": "2022-5-30T07:00:42.412Z"}, {"end": ""}]
+                }
+            ]
+        },
+        {
+            "Area": "中部",
+            "ID": "West"
+        },
+        {
+            "Area": "南部",
+            "ID": "South"
+        },
+        {
+            "Area": "東部",
+            "ID": "East"
+        }    
+    ]
+}
