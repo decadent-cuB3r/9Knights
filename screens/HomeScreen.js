@@ -1,11 +1,11 @@
 import React from "react";
-import { Box, Text, Center, VStack, HStack } from 'native-base'
+import { Box, Text, Center, VStack, HStack } from 'native-base';
+import events from "../json/events.json";
+import EventList from "../components/eventList";
 
 const HomeScreen = ({ navigation }) => {
     return(
-        <VStack>
-            <Text>HomeScreen</Text>
-        </VStack>
+        <EventList list={events.Events} navigation={navigation}/>
     )
 }
 
